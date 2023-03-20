@@ -1,9 +1,4 @@
-//
-//  GFTextField.swift
-//  GitHubFollowers
-//
-//  Created by Анатолий Ге on 20.03.2023.
-//
+// Creating our custom placeholder
 
 import UIKit
 
@@ -25,11 +20,11 @@ class GFTextField: UITextField {
         layer.borderWidth = 2
         layer.borderColor = UIColor.systemGray4.cgColor
         
-        textColor = .label // white text in dark mode, black text in white mode
+        textColor = .label // white text in dark mode, black text in light mode
         tintColor = .label
         textAlignment = .center
         font = UIFont.preferredFont(forTextStyle: .title2)
-        adjustsFontSizeToFitWidth = true
+        adjustsFontSizeToFitWidth = true // in case our username's name will be long
         minimumFontSize = 12
         
         backgroundColor = .tertiarySystemBackground

@@ -1,3 +1,5 @@
+// Create our custom button
+
 import UIKit
 
 class GFButton: UIButton {
@@ -22,7 +24,7 @@ class GFButton: UIButton {
         layer.cornerRadius = 10
         titleLabel?.textColor = .white
         titleLabel?.font = UIFont.preferredFont(forTextStyle: .headline)
-        translatesAutoresizingMaskIntoConstraints = false
+        translatesAutoresizingMaskIntoConstraints = false // for autolayout
     }
     
 
