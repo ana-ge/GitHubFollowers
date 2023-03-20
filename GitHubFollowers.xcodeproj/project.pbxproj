@@ -15,6 +15,8 @@
 		1268052E29C727280086F37F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1268052C29C727280086F37F /* LaunchScreen.storyboard */; };
 		1268053629C738690086F37F /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1268053529C738690086F37F /* SearchVC.swift */; };
 		1268053829C738950086F37F /* FavoritesListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1268053729C738950086F37F /* FavoritesListVC.swift */; };
+		1268053A29C89AC80086F37F /* GFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1268053929C89AC80086F37F /* GFButton.swift */; };
+		1268053C29C89DEE0086F37F /* GFTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1268053B29C89DEE0086F37F /* GFTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		1268052F29C727280086F37F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1268053529C738690086F37F /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
 		1268053729C738950086F37F /* FavoritesListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesListVC.swift; sourceTree = "<group>"; };
+		1268053929C89AC80086F37F /* GFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFButton.swift; sourceTree = "<group>"; };
+		1268053B29C89DEE0086F37F /* GFTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +68,8 @@
 				1268052029C727270086F37F /* SceneDelegate.swift */,
 				1268053529C738690086F37F /* SearchVC.swift */,
 				1268053729C738950086F37F /* FavoritesListVC.swift */,
+				1268053929C89AC80086F37F /* GFButton.swift */,
+				1268053B29C89DEE0086F37F /* GFTextField.swift */,
 				1268052429C727270086F37F /* Main.storyboard */,
 				1268052A29C727280086F37F /* Assets.xcassets */,
 				1268052C29C727280086F37F /* LaunchScreen.storyboard */,
@@ -146,9 +152,11 @@
 			files = (
 				1268053629C738690086F37F /* SearchVC.swift in Sources */,
 				1268052929C727270086F37F /* GitHubFollowers.xcdatamodeld in Sources */,
+				1268053A29C89AC80086F37F /* GFButton.swift in Sources */,
 				1268053829C738950086F37F /* FavoritesListVC.swift in Sources */,
 				1268051F29C727270086F37F /* AppDelegate.swift in Sources */,
 				1268052129C727270086F37F /* SceneDelegate.swift in Sources */,
+				1268053C29C89DEE0086F37F /* GFTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
