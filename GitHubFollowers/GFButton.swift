@@ -1,5 +1,3 @@
-// Create our custom button
-
 import UIKit
 
 class GFButton: UIButton {

@@ -1,10 +1,3 @@
-//
-//  AppDelegate.swift
-//  GitHubFollowers
-//
-//  Created by Анатолий Ге on 19.03.2023.
-//
-
 import UIKit
 import CoreData
 
