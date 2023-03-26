@@ -28,6 +28,7 @@
 		1268055D29CC8CC40086F37F /* FollowerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1268055C29CC8CC40086F37F /* FollowerCell.swift */; };
 		1268055F29CC8D430086F37F /* GFAvatarImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1268055E29CC8D430086F37F /* GFAvatarImageView.swift */; };
 		1268056129CF00120086F37F /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1268056029CF00120086F37F /* UIHelper.swift */; };
+		1268056829CFF9A20086F37F /* GFEmptyState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1268056729CFF9A20086F37F /* GFEmptyState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,7 @@
 		1268055C29CC8CC40086F37F /* FollowerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerCell.swift; sourceTree = "<group>"; };
 		1268055E29CC8D430086F37F /* GFAvatarImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAvatarImageView.swift; sourceTree = "<group>"; };
 		1268056029CF00120086F37F /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
+		1268056729CFF9A20086F37F /* GFEmptyState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFEmptyState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +120,7 @@
 				1268053F29C9E6D10086F37F /* GFTitleLabel.swift */,
 				1268054129C9E8360086F37F /* GFBodyLabel.swift */,
 				1268055E29CC8D430086F37F /* GFAvatarImageView.swift */,
+				1268056729CFF9A20086F37F /* GFEmptyState.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -248,6 +251,7 @@
 			files = (
 				1268054429C9E8F00086F37F /* GFALertVC.swift in Sources */,
 				1268053629C738690086F37F /* SearchVC.swift in Sources */,
+				1268056829CFF9A20086F37F /* GFEmptyState.swift in Sources */,
 				1268052929C727270086F37F /* GitHubFollowers.xcdatamodeld in Sources */,
 				1268053A29C89AC80086F37F /* GFButton.swift in Sources */,
 				1268053829C738950086F37F /* FavoritesListVC.swift in Sources */,
