@@ -40,6 +40,7 @@
 		126805A529D1E3270086F37F /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126805A429D1E3270086F37F /* Date+Ext.swift */; };
 		126805A729D1E35F0086F37F /* String + Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126805A629D1E35F0086F37F /* String + Ext.swift */; };
 		126805A929D329E30086F37F /* PersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126805A829D329E30086F37F /* PersistenceManager.swift */; };
+		126805AB29D5ABAF0086F37F /* FavoriteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126805AA29D5ABAF0086F37F /* FavoriteCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -78,6 +79,7 @@
 		126805A429D1E3270086F37F /* Date+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Ext.swift"; sourceTree = "<group>"; };
 		126805A629D1E35F0086F37F /* String + Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String + Ext.swift"; sourceTree = "<group>"; };
 		126805A829D329E30086F37F /* PersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceManager.swift; sourceTree = "<group>"; };
+		126805AA29D5ABAF0086F37F /* FavoriteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -205,6 +207,7 @@
 			isa = PBXGroup;
 			children = (
 				1268055C29CC8CC40086F37F /* FollowerCell.swift */,
+				126805AA29D5ABAF0086F37F /* FavoriteCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -311,6 +314,7 @@
 				1268055D29CC8CC40086F37F /* FollowerCell.swift in Sources */,
 				1268055F29CC8D430086F37F /* GFAvatarImageView.swift in Sources */,
 				126805A929D329E30086F37F /* PersistenceManager.swift in Sources */,
+				126805AB29D5ABAF0086F37F /* FavoriteCell.swift in Sources */,
 				126805A729D1E35F0086F37F /* String + Ext.swift in Sources */,
 				1268057C29D1CC750086F37F /* GFRepoItemVC.swift in Sources */,
 				1268052129C727270086F37F /* SceneDelegate.swift in Sources */,
