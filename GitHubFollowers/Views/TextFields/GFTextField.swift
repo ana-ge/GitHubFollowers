@@ -30,6 +30,7 @@ class GFTextField: UITextField {
         backgroundColor = .tertiarySystemBackground
         autocorrectionType = .no
         returnKeyType = .go
+        clearButtonMode = .whileEditing // When we typed smth x-button appears
         placeholder = "Enter a username"
     }
     
