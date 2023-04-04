@@ -33,6 +33,4 @@ class GFTextField: UITextField {
         clearButtonMode = .whileEditing // When we typed smth x-button appears
         placeholder = "Enter a username"
     }
-    
-
 }
