@@ -1,10 +1,3 @@
-//
-//  GFTabBarController.swift
-//  GitHubFollowers
-//
-//  Created by Анатолий Ге on 30.03.2023.
-//
-
 import UIKit
 
 class GFTabBarController: UITabBarController {
@@ -15,6 +8,7 @@ class GFTabBarController: UITabBarController {
         viewControllers = [createSearchNC(), createFavoritesNC()]
     }
     
+    
     func createSearchNC() -> UINavigationController {
         let searchVC = SearchVC()
         searchVC.title = "Search"
@@ -22,6 +16,7 @@ class GFTabBarController: UITabBarController {
         
         return UINavigationController(rootViewController: searchVC)
     }
+    
     
     func createFavoritesNC() -> UINavigationController {
         let favoritesListVC = FavoritesListVC()

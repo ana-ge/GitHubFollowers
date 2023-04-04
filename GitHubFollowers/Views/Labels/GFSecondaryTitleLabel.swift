@@ -1,10 +1,3 @@
-//
-//  GFSecondaryTitleLabel.swift
-//  GitHubFollowers
-//
-//  Created by Анатолий Ге on 26.03.2023.
-//
-
 import UIKit
 
 class GFSecondaryTitleLabel: UILabel {
@@ -29,6 +22,5 @@ class GFSecondaryTitleLabel: UILabel {
         minimumScaleFactor = 0.90
         lineBreakMode = .byTruncatingTail
         translatesAutoresizingMaskIntoConstraints = false
-        
     }
 }
