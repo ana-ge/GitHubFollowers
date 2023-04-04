@@ -28,12 +28,14 @@ class GFDataLoadingVC: UIViewController {
         activityIndicator.startAnimating()
     }
     
+    
     func dismissLoadingView() {
         DispatchQueue.main.async {
             self.containerView.removeFromSuperview()
             self.containerView = nil
         }
     }
+    
     
     func showEmptyStateView(with message: String, in view: UIView) {
         let emptyStateView = GFEmptyState(message: message)
